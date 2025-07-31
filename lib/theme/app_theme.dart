@@ -125,7 +125,7 @@ class AppTheme {
     ),
 
     // Card theme with minimal shadows
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: cardLight,
       elevation: 1.0, // Minimal elevation
       shadowColor: shadowLight,
@@ -292,7 +292,7 @@ class AppTheme {
       inactiveTrackColor: dividerLight,
     ),
 
-    tabBarTheme: TabBarThemeData(
+    tabBarTheme: TabBarTheme(
       labelColor: primaryLight,
       unselectedLabelColor: textMediumEmphasisLight,
       indicatorColor: primaryLight,
@@ -337,7 +337,7 @@ class AppTheme {
     ),
 
     // Dialog theme for institutional modals
-    dialogTheme: DialogThemeData(
+    dialogTheme: DialogTheme(
       backgroundColor: dialogLight,
       elevation: 4.0,
       shape: RoundedRectangleBorder(
@@ -400,7 +400,7 @@ class AppTheme {
       ),
       iconTheme: IconThemeData(color: onSurfaceDark),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       color: cardDark,
       elevation: 1.0,
       shadowColor: shadowDark,
@@ -548,7 +548,7 @@ class AppTheme {
       overlayColor: primaryDark.withValues(alpha: 0.1),
       inactiveTrackColor: dividerDark,
     ),
-    tabBarTheme: TabBarThemeData(
+    tabBarTheme: TabBarTheme(
       labelColor: primaryDark,
       unselectedLabelColor: textMediumEmphasisDark,
       indicatorColor: primaryDark,
@@ -589,7 +589,7 @@ class AppTheme {
         borderRadius: BorderRadius.circular(4.0),
       ),
     ),
-    dialogTheme: DialogThemeData(
+    dialogTheme: DialogTheme(
       backgroundColor: dialogDark,
       elevation: 4.0,
       shape: RoundedRectangleBorder(
